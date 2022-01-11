@@ -191,7 +191,7 @@ body{
     width: 10px;
     height: 70px;
     position: absolute;
-    top: 50px;
+    top: 40px;
     left: 0;
     }
   
@@ -200,7 +200,7 @@ body{
     width: 10px;
     height: 70px;
     position: absolute;
-    top: 190px;
+    top: 187px;
     left: 0;
     }
   
@@ -209,7 +209,7 @@ body{
     width: 10px;
     height: 70px;
     position: absolute;
-    top: 330px;
+    top: 332px;
     left: 0;
     }
   
@@ -223,7 +223,7 @@ body{
   
     ul li {
     list-style:none;
-    margin-left: 20px;
+    margin-left: 40px;
     }
   
     ul li a {
@@ -392,10 +392,7 @@ hr{
 }
 
 
-/*HABIT E MOOD*/
-#mood{
-  margin-top: 60px;
-}
+/*HABIT E MOOD*/ 
 
 #dc1, #dc2, #dc3, #dc4 {
 	-webkit-appearance: none;
@@ -437,9 +434,10 @@ top: 620px;
 
 #mood{
 width: 200px;
-position: absolute; /* Stay in place */
-left: 500px;
-top: 560px;
+position: fixed;
+top: 50%;
+margin-top: 240px;
+left: 770px;
 }
 
 #am, #gr, #ok, #ng{
@@ -493,9 +491,10 @@ grid-template-columns: auto auto;
 }
 
 #gráficos{
-  position: absolute; /* Stay in place */
+	position: fixed;
+	top: 50%;
+  margin-top: -180px;
   padding-left: 470px;
-  padding-top: 165px;
   font-size: 30px;
   display: grid;
   grid-template-columns: auto;
@@ -509,13 +508,15 @@ grid-template-columns: auto auto;
   }
   
   #slp,#xx,#wk,#et{
-  padding: 27px;
+  padding: 20px;
   margin: 10px;
   }
   
   #changedays{
-    top: 15px;
-    left: 370px;
+	position: fixed;
+	left: 620px;
+	top: 50%;
+  margin-top: -355px;
   }
 
 #changed{
@@ -525,10 +526,11 @@ grid-template-columns: auto auto;
   }
   
   #feel{
-    position: absolute;
+	position: fixed;
+	top: 50%;
+  margin-top: -70px;
     height: 0px;
     width: 400px;
-    margin-top: 215px;
     margin-left: 210px;
     
   }
@@ -540,9 +542,10 @@ font-size: 62.5%;
 }
 
 .container {
-  scale: 0.95;
-position: absolute; /* Stay in place */
-margin-top: 0px;
+  scale: 0.85;
+  position: fixed;
+  top: 50%;
+margin-top: -240px;
 color: black;
 /*display: flex;*/
 justify-content: center;
@@ -634,6 +637,43 @@ opacity: 0.5;
   margin-left: 180px;
 }
 
+#logout{
+	background-color: rgb(75, 80, 73);
+color: white;
+}
+
+/*Ao chegar a uma certa altura deixa de mexer com a janela*/
+@media screen and (max-height: 750px){
+	
+	.container {
+		top: 0;
+	  margin-top: 140px;
+	  }
+
+#mood{
+	top: 0;
+	margin-top: 620px;
+	}
+
+
+	#feel{
+		top: 0;
+	  margin-top: 310px;
+	  }
+
+
+  #changedays{
+	top: 0;
+  margin-top: 25px;
+  }
+
+#gráficos{
+	top: 0;
+  margin-top: 195px;
+  }
+
+}
+
 
 /*Tablet*/
 @media screen and (max-width: 1080px) {
@@ -701,6 +741,7 @@ opacity: 0.5;
   .prompts, .moods{
     margin-top: 200px;
 	}
+	
 	#sidebar{
 		width: 30%;
 		max-width: 200px;
@@ -719,9 +760,9 @@ opacity: 0.5;
 
 	/*Habit e Mood*/
   #gráficos{
-    position: absolute; 
-    padding-left: 360px;
-    padding-top: 110px;
+top: 0;
+    margin-left: -120px;
+    margin-top: 200px;
     font-size: 25px;
     }
     
@@ -736,19 +777,21 @@ opacity: 0.5;
 }
 
 #feel{
-  margin-left: -250px;
-  margin-top: 210px;
+  margin-left: -235px;
+  margin-top: -100px;
 }
 
 #mood{
-margin-top: 60px;
-margin-left: -495px;
+	top: 0;
+margin-top: 595px;
+margin-left: -612px;
 }
 
 #changedays{
+	top: 0;
+	margin-top: 80px;
   transform: scale(0.9);
-margin-left: 70px;
-margin-top: 10px;
+margin-left: -25px;
 }
 
 #changed{
@@ -788,8 +831,9 @@ margin: 0;
 
   .container{
     scale: 0.7;
+	top: 0;
     margin-left: -60px;
-    margin-top: -80px;
+    margin-top: 100px;
   }
 
   /*About us*/
@@ -900,7 +944,7 @@ aside{
 #bar_home{
 	width: 100%;
 	height: 10px;
-  margin-left: 10px;
+  margin-left: 20px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -940,21 +984,21 @@ top: 70px;
 #feel{
   scale: 0.9;
   position: absolute;
-  margin-top: 160px;
-  margin-left: -440px;
+  margin-top: 180px;
+  margin-left: -430px;
   left: 50%;
   }
 
 #mood{
-	position: absolute;
-	margin-top: 10px;
-	margin-left: -175px;
+	top: 0;
+	margin-top: 660px;
+	margin-left: -153px;
 	left: 50%;
   }
 
 .container {
 position: absolute;
-margin-top: -100px;
+margin-top: 0px;
 margin-left: -250px;
 left: 50%;
 }
@@ -963,8 +1007,8 @@ left: 50%;
   font-size: 20px;
   grid-template-columns: auto auto auto auto;
   position: absolute;
-margin-top: 300px;
-margin-left: -560px;
+margin-top: 490px;
+margin-left: -650px;
 left: 50%;
   }
   
@@ -975,9 +1019,8 @@ left: 50%;
 
     #changedays{
     transform: scale(0.9);
-	position: absolute;
-	margin-top: -50px;
-	margin-left: 250px;
+	margin-top: 70px;
+	margin-left: 280px;
 	left: 50%;
     }
     
@@ -1017,15 +1060,15 @@ left: 50%;
   }
 
 #logs{
-	margin-top: -150px;
+	margin-top: -200px;
   }
 
   #signs{
-	margin-top: -190px;
+	margin-top: -240px;
   }
 
   #about{
-	margin-top: -220px;
+	margin-top: -265px;
   }
 
   #intro{
@@ -1033,7 +1076,10 @@ left: 50%;
       width: 60%;
       left: 10%;
     margin-left: 0px;
+	margin-top: -290px;
   }
+
+
 
 /*Aboutus*/
 #sob{
@@ -1104,7 +1150,7 @@ width: 90%;
   /*Habit e Mood*/
   .container{
     transform: scale(0.95);
-    margin-top: -120px;
+    margin-top: -20px;
   }
 
   .weekdays{
@@ -1134,22 +1180,24 @@ width: 90%;
      }
 
   #mood{
-    margin-top: -60px;
+    margin-top: 525px;
+	margin-left: -145px;
     }
 
     #gráficos{
-      margin-top: 260px;
+      margin-top: 450px;
    }
 
    #feel{
-    margin-top: 125px;
+    margin-top: 135px;
+	margin-left: -425px;
     }
 
 
   #changedays{
     scale: 0.9;
-    top: -20px;
-	margin-left: 210px;
+	margin-left: 230px;
+	margin-top: -20px;
   }
   
   #sbmt{
@@ -1234,6 +1282,11 @@ width: 90%;
     height: 300px;
     margin-top: -60px;
   }
+
+
+  #isd{
+	margin-top: -20px;
+}
 }
 
 
@@ -1251,7 +1304,9 @@ width: 90%;
 	}
 
   #gráficos{
-   margin-top: 190px;
+	  scale: 0.8;
+   margin-top: 380px;
+   margin-left: -600px;
 }
 
   #entry{
@@ -1267,8 +1322,8 @@ width: 90%;
   }
 
   .container{
-    transform: scale(0.85);
-    margin-top: -150px;
+    transform: scale(0.8);
+    margin-top: -40px;
   }
 
   .weekdays{
@@ -1278,8 +1333,8 @@ width: 90%;
 
 #changedays{
   scale: 0.8;
-  top: 120px;
-margin-left: 165px;
+  margin-top: 120px;
+margin-left: 195px;
 }
 
 #sbmt{
@@ -1288,7 +1343,8 @@ margin-left: 165px;
 
   #feel{
     transform: scale(0.9);
-    margin-top: 75px;
+    margin-top: 140px;
+	margin-left: -420px;
     }
 
    #changeday{
@@ -1297,9 +1353,9 @@ margin-left: 165px;
   }
 
 #mood{
-  margin-top: -120px;
-  font-size: 15px;
-  height: 45px;
+	scale: 0.8;
+  margin-top: 460px;
+
   }
 
   #am, #gr, #ok, #ng{
@@ -1391,6 +1447,10 @@ margin-left: 165px;
   
   .writingprompt1{
   width: 90%;
+  }
+
+  #isd{
+	  margin-top: -60px;
   }
   
 }
