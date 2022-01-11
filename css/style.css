@@ -3,155 +3,160 @@
 
 /*Definições gerais*/
 body{
-    font-family: 'Archivo', sans-serif;
-    margin: 0;
-    padding: 0;
-    font-variation-settings: 'wght' 200, 'wdth' 105;
-    color: rgb(75, 80, 73);
-  }
+font-family: 'Archivo', sans-serif;
+margin: 0;
+padding: 0;
+font-variation-settings: 'wght' 200, 'wdth' 105;
+color: rgb(75, 80, 73);
+}
 
-	#main, #id {
-    position: absolute;
-        margin-left: 300px;
-        width: 400px;
-        margin-top:100px;
-        }
+#main, #id {
+position: absolute;
+margin-left: 300px;
+width: 400px;
+margin-top:100px;
+}
 
-        #let {
-          position: absolute;
-              margin-left: 300px;
-              width: 400px;
-              margin-top:140px;
-              }
+#let {
+position: absolute;
+margin-left: 300px;
+width: 400px;
+margin-top:140px;
+}
     
-        h1 {
-        z-index: -1;
-        font-variation-settings: 'wght' 600, 'wdth' 100;
-        text-transform: uppercase;
-        font-size: 28px;
-        margin-bottom: 10px;
-        }
+h1 {
+z-index: -1;
+font-variation-settings: 'wght' 600, 'wdth' 100;
+text-transform: uppercase;
+font-size: 28px;
+margin-bottom: 10px;
+}
     
-        h2 {
-        font-size:18px;
-        }
+h2 {
+font-size:18px;
+}
     
-        .logo img {
-        position: absolute;
-        top: 90px;
-        right: 100px;
-        width: 170px;
-        height: 170px;
-        }
+.logo img {
+position: absolute;
+top: 90px;
+right: 100px;
+width: 170px;
+height: 170px;
+}
     
-        a {
-        text-decoration: none;
-        }
+a {
+text-decoration: none;
+}
     
-        p,  button {
-        font-size: 17px;
-        }
+p,  button {
+font-size: 17px;
+}
     
-        button{
-            text-align: center;
-            font-variation-settings: 'wght' 300, 'wdth' 105;
-            padding: 15px;
-            background-color: #e0cbc5;
-            border: none;
-            color: rgb(75, 80, 73);
-            font-family: 'Archivo', sans serif;
-            cursor: pointer;
-        }
+button{
+text-align: center;
+font-variation-settings: 'wght' 300, 'wdth' 105;
+padding: 15px;
+background-color: #e0cbc5;
+border: none;
+color: rgb(75, 80, 73);
+font-family: 'Archivo', sans serif;
+cursor: pointer;
+}
 
-        .data{
-          font-size: 12px;
-        }
+.data{
+font-size: 12px;
+}
+
 
 /*Index*/
 #logo { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -160px;
-    margin-left: -100px;
-    }
+/*ao ter a posição fixa e com 50% de distância do topo e da esquerda garante-se que fica centrada independentemente do tamanho do ecrã*/
+position: fixed;
+top: 50%;
+left: 50%;
+/* o margin-top e margin-left são usados para, depois do 50%, centrar o elemento na página*/
+/* este código é usado em mais elementos do css para garantir que ficam centrados*/
+margin-top: -160px;
+margin-left: -100px;
+}
   
-  #nome{
-      position: fixed;
-      font-size: 25px;
-    left: 50%;
-    margin-top: 50px;
-    margin-left: -106px;
-    letter-spacing: 1px;
-    text-align: center;
-    font-variation-settings: 'wght' 100, 'wdth' 105;
+#nome{
+position: fixed;
+font-size: 25px;
+left: 50%;
+margin-top: 50px;
+margin-left: -106px;
+letter-spacing: 1px;
+text-align: center;
+font-variation-settings: 'wght' 100, 'wdth' 105;
+}
+  
+label{
+margin-bottom: 20px;
+font-size: 15px;
+}
+  
+.login_field {
+padding: 5px;
+border: none;
+height: 20px;
+width: 250px;
+border-bottom: solid #e0cbc5 2pt;
+}
+  
+.links {
+text-decoration: none;
+color: rgb(75, 80, 73);
+font-weight: bold;
+}
+  
+#about, #logs, #signs{
+width: 500px;
+position: fixed;
+top: 50%;
+left: 50%;
+}
+  
+/*centrar cada elemento dentro do intro*/
+#about{
+margin-top: -180px;
+margin-left: -230px;
+}
 
-    }
-  
-  label{
-   margin-bottom: 20px;
-   font-size: 15px;
-  }
-  
-  .login_field {
-      padding: 5px;
-      border: none;
-    height: 20px;
-    width: 250px;
-    border-bottom: solid #e0cbc5 2pt;
-  }
-  
-  .links {
-    text-decoration: none;
-    color: rgb(75, 80, 73);
-    font-weight: bold;
-  }
-  
-    #about, #logs, #signs{
-      width: 500px;
-      position: fixed;
-      top: 50%;
-      left: 50%;
-    }
-  
-    #about{
-        margin-top: -180px;
-        margin-left: -230px;
-    }
+#logs{
+margin-top: -160px;
+margin-left: -150px;
+}
 
-    #logs{
-        margin-top: -160px;
-        margin-left: -150px;
-    }
+#signs{
+margin-top: -175px;
+margin-left: -150px;
+}
 
-  #signs{
-      margin-top: -175px;
-      margin-left: -150px;
-  }
+.small{
+font-size: 13px;
+}
 
-  .small{
-      font-size: 13px;
-  }
+#warnsign, #warn, #account{
+font-size: 13px;
+}
 
-  #warnsign, #warn, #account{
-    font-size: 13px;
-  }
-
-    #intro{
-        background-color: white;
-        width: 680px;
-        height: 420px;
-        position: fixed;
-        top: 50%;
-        left: 50%;
-      margin-top: -250px;
-      margin-left: -365px;
-      padding: 40px;
-    }
+/*retângulo branco da introdução - sempre centrado*/
+#intro{
+background-color: white;
+width: 680px;
+height: 420px;
+position: fixed;
+top: 50%;
+left: 50%;
+margin-top: -250px;
+margin-left: -365px;
+padding: 40px;
+}
   
-    #logo{
+/*transição de opacidade de elementos*/
+#logo{
       opacity: 0;
-  
       -webkit-transition: opacity 2s ease-in;
          -moz-transition: opacity 2s ease-in;
           -ms-transition: opacity 2s ease-in;
@@ -159,9 +164,8 @@ body{
               transition: opacity 2s ease-in;
   }
   
-  #about, #logs, #signs, #intro {
+#about, #logs, #signs, #intro {
       opacity: 0;
-  
       -webkit-transition: opacity 1s ease-in;
          -moz-transition: opacity 1s ease-in;
           -ms-transition: opacity 1s ease-in;
@@ -169,265 +173,265 @@ body{
               transition: opacity 1s ease-in;
   }
   
-  #logo load {
-      opacity: 1;
-  }
+#logo load {
+opacity: 1;
+}
   
-  #about load {
-    opacity: 1;
-  }
+#about load {
+opacity: 1;
+}
 
 
-  /*Menu*/
-
+/*Menu*/
 /*menu mobile*/
-  #mobilenav{
-    display: none;
-  }
+#mobilenav{
+display: none;
+}
 
-  /*menu "normal"*/
-	.selector_home {
-    background: #999B84;
-    width: 10px;
-    height: 70px;
-    position: absolute;
-    top: 40px;
-    left: 0;
-    }
+/*menu lateral*/
+/*posição do seletor (barra que mostra em que página está)*/
+.selector_home {
+background: #999B84;
+width: 10px;
+height: 70px;
+position: absolute;
+top: 40px;
+left: 0;
+}
   
-    .selector_profile {
-    background: #999B84;
-    width: 10px;
-    height: 70px;
-    position: absolute;
-    top: 187px;
-    left: 0;
-    }
+.selector_profile {
+background: #999B84;
+width: 10px;
+height: 70px;
+position: absolute;
+top: 187px;
+left: 0;
+}
   
-    .selector_about {
-    background: #999B84;
-    width: 10px;
-    height: 70px;
-    position: absolute;
-    top: 332px;
-    left: 0;
-    }
+.selector_about {
+background: #999B84;
+width: 10px;
+height: 70px;
+position: absolute;
+top: 332px;
+left: 0;
+}
   
-    aside {
-      position: absolute;
-      z-index: 1;
-	  top: 50%;
-    margin-top:-200px;
-    margin-left: 0px;
-    }
+/*tudo*/
+aside {
+position: absolute;
+z-index: 1;
+top: 50%;
+margin-top:-200px;
+margin-left: 0px;
+}
   
-    ul li {
-    list-style:none;
-    margin-left: 40px;
-    }
+/*icons*/
+ul li {
+list-style:none;
+margin-left: 40px;
+}
   
-    ul li a {
-    padding-bottom: 50px;
-    padding-top: 55px;
-    display:block;
-    text-decoration: none;
-    font-weight: 600;	
-    }
+ul li a {
+padding-bottom: 50px;
+padding-top: 55px;
+display:block;
+text-decoration: none;
+font-weight: 600;	
+}
   
-    ul img{
-      width: 35px;
-      height: 35px;
-    }
-
+ul img{
+width: 35px;
+height: 35px;
+}
 
 
 /*Home Page*/
+#options p {
+font-variation-settings: 'wght' 400, 'wdth' 100;
+text-transform: uppercase;
+text-align: center;
+padding: 85px 0;
+color: white;	
+font-size: 16px;
+}
+  
+.prompts, .moods, .habits, .challenges {
+position: absolute;
+background: #C0C39C;
+}
+  
+.prompts{
+margin-left:300px;
+margin-top: 250px;
+width: 300px;
+height:200px;
+}
 
-	#options p {
-    font-variation-settings: 'wght' 400, 'wdth' 100;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 85px 0;
-    color: white;	
-    font-size: 16px;
-    }
+/*posicionar cada um dos elementos*/
+.moods {
+margin-left:620px;
+margin-top: 250px;
+width: 250px;
+height:200px;
+}
   
-    .prompts, .moods, .habits, .challenges {
-    position: absolute;
-    background: #C0C39C;
-    }
+.habits {
+margin-left:300px;
+margin-top: 470px;
+width: 250px;
+height:200px;
+}
   
-      .prompts{
-          margin-left:300px;
-          margin-top: 250px;
-          width: 300px;
-          height:200px;
-          }
+.challenges {
+margin-left:570px;
+margin-top: 470px;
+width: 300px;
+height:200px;
+}
   
-    .moods {
-    margin-left:620px;
-    margin-top: 250px;
-    width: 250px;
-    height:200px;
-    }
-  
-    .habits {
-    margin-left:300px;
-    margin-top: 470px;
-    width: 250px;
-    height:200px;
-    }
-  
-    .challenges {
-    margin-left:570px;
-    margin-top: 470px;
-    width: 300px;
-    height:200px;
-    }
-  
-    .challenges:hover, .moods:hover, .habits:hover, .prompts:hover{
-        background: #a4a77f;
-        transition: all .3s ease;
-      }
+.challenges:hover, .moods:hover, .habits:hover, .prompts:hover{
+background: #a4a77f;
+transition: all .3s ease;
+}
   
 
 /*Daily Challenge*/
-
+/*css do checkbox*/
 #dc{
-  margin-top: 30px;
-	-webkit-appearance: none;
-	background-color: white;
-	border: 2px solid #cacece;
-	padding: 7px;
-	border-radius: 1px;
-	position: relative;
+margin-top: 30px;
+-webkit-appearance: none;
+background-color: white;
+border: 2px solid #cacece;
+padding: 7px;
+border-radius: 1px;
+position: relative;
 }
 
 #dc:checked{
-	background-color: #C0C39C;
-	border: 2px solid #a4a77f;
-	color: #C0C39C;
+background-color: #C0C39C;
+border: 2px solid #a4a77f;
+color: #C0C39C;
 }
   
 
 /*Journal*/
-		.journalentry{
-      width: 500px;
-      height: 300px;
-      font-variation-settings: 'wght' 200, 'wdth' 105;
-      color: rgb(75, 80, 73);
-    border: solid #e0cbc5 2pt;
-    padding:20px;
-   
-    }
+.journalentry{
+width: 500px;
+height: 300px;
+font-variation-settings: 'wght' 200, 'wdth' 105;
+color: rgb(75, 80, 73);
+border: solid #e0cbc5 2pt;
+padding:20px;
+}
 
 #journalentries{
-  display: none; 
-  border: solid #e0cbc5 2pt;
-  /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding: 10px; /* Location of the box */
-  left: 300px;
-  top: 250px;
-  width:50%; /* Full width */
-  height: 60%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
+display: none; 
+border: solid #e0cbc5 2pt;
+/* Hidden by default */
+position: fixed; /* Stay in place */
+z-index: 1; /* Sit on top */
+padding: 10px; /* Location of the box */
+left: 300px;
+top: 250px;
+width:50%; /* Full width */
+height: 60%; /* Full height */
+overflow: auto; /* Enable scroll if needed */
 }
 
 hr{
-  border: solid #e0cbc5 1pt;
+border: solid #e0cbc5 1pt;
 }
+
 .post{
-  padding: 20px;
+padding: 20px;
 }
 
 .close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #e0cbc5;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
+position: absolute;
+top: 15px;
+right: 35px;
+color: #e0cbc5;
+font-size: 40px;
+font-weight: bold;
+transition: 0.3s;
 }
 
 .close:hover,
 .close:focus {
-  color: rgb(75, 80, 73);
-  text-decoration: none;
-  cursor: pointer;
+color: rgb(75, 80, 73);
+text-decoration: none;
+cursor: pointer;
 }
 
 #entry{
-  font-family: 'Archivo', sans serif;
-  font-size: 14px;
+font-family: 'Archivo', sans serif;
+font-size: 14px;
 }
 
 #newentry {
-  position: absolute;
-  right: 50px;
-  bottom: 50px;
-  height: 55px;
-  width: 100px;
-  background-color: #C0C39C;
-  text-align: center;
-  font-size: 15px;
+position: absolute;
+right: 50px;
+bottom: 50px;
+height: 55px;
+width: 100px;
+background-color: #C0C39C;
+text-align: center;
+font-size: 15px;
 }
-
 
 #newentry p{
-  margin-top: 8px;
+margin-top: 8px;
 }
+
 
 /*About Us*/
-
 #sob{
-  width: 150%;
+width: 150%;
 }
 
-
 #jor{
-  margin-top: 50px;
+margin-top: 50px;
 }
 
 
 /*HABIT E MOOD*/ 
-
+/*css checkbox*/
 #dc1, #dc2, #dc3, #dc4 {
-	-webkit-appearance: none;
-	background-color: white;
-	border: 2px solid #cacece;
-	padding: 7px;
-	border-radius: 1px;
+-webkit-appearance: none;
+background-color: white;
+border: 2px solid #cacece;
+padding: 7px;
+border-radius: 1px;
 }
 
+/*checkbox corresponde à cor do gráfico correspondente*/
 #dc1:checked{
-	background-color: rgb(157, 167, 135);
-	border: 2px solid rgb(128, 138, 106);
-	color: rgb(157, 167, 135);
+background-color: rgb(157, 167, 135);
+border: 2px solid rgb(128, 138, 106);
+color: rgb(157, 167, 135);
 }
 
 #dc2:checked{
-	background-color: rgb(228, 218, 127);
-	border: 2px solid rgb(201, 192, 111);
-	color: rgb(228, 218, 127);
+background-color: rgb(228, 218, 127);
+border: 2px solid rgb(201, 192, 111);
+color: rgb(228, 218, 127);
 }
 
 #dc3:checked{
-	background-color: rgb(250, 219, 161);
-	border: 2px solid rgb(216, 189, 138);
-	color: rgb(250, 219, 161);
+background-color: rgb(250, 219, 161);
+border: 2px solid rgb(216, 189, 138);
+color: rgb(250, 219, 161);
 }
 
 #dc4:checked{
-	background-color: rgb(245, 209, 202);
-	border: 2px solid rgb(218, 184, 177);
-	color: rgb(245, 209, 202);
+background-color: rgb(245, 209, 202);
+border: 2px solid rgb(218, 184, 177);
+color: rgb(245, 209, 202);
 }
 
 #sbmt{
-  position: absolute; /* Stay in place */
+position: absolute; /* Stay in place */
 left: 605px;
 top: 620px;
 }
@@ -441,28 +445,29 @@ left: 770px;
 }
 
 #am, #gr, #ok, #ng{
-  width: 250px;
-  height: 150px;
-  margin-top: 220px;
-  margin-left: -120px;
-  border: none;
-  cursor: pointer;
+width: 250px;
+height: 150px;
+margin-top: 220px;
+margin-left: -120px;
+border: none;
+cursor: pointer;
 }
 
 #ams, #grs, #oks, #ngs{
-  width: 50px;
-  height: 20px;
+width: 50px;
+height: 20px;
 }
 
 
 #changeday{
-  position: absolute;
-  top: 480px;
-  margin-left: 515px;
-  display: grid;
+position: absolute;
+top: 480px;
+margin-left: 515px;
+display: grid;
 grid-template-columns: auto auto auto auto;
 }
 
+/*cores gerais*/
 #notgreat, #ng, #xx, #ngs{
 background-color: rgb(245, 209, 202);
 }
@@ -491,51 +496,50 @@ grid-template-columns: auto auto;
 }
 
 #gráficos{
-	position: fixed;
-	top: 50%;
-  margin-top: -180px;
-  padding-left: 470px;
-  font-size: 30px;
-  display: grid;
-  grid-template-columns: auto;
-  opacity: 0;
-  }
+position: fixed;
+top: 50%;
+margin-top: -180px;
+padding-left: 470px;
+font-size: 30px;
+display: grid;
+grid-template-columns: auto;
+opacity: 0;
+}
   
-  #other{
-  position: absolute;
-  margin-top: 560PX;
-  margin-left: 530px;
-  }
+#other{
+position: absolute;
+margin-top: 560PX;
+margin-left: 530px;
+}
   
-  #slp,#xx,#wk,#et{
-  padding: 20px;
-  margin: 10px;
-  }
+#slp,#xx,#wk,#et{
+padding: 20px;
+margin: 10px;
+}
   
-  #changedays{
-	position: fixed;
-	left: 620px;
-	top: 50%;
-  margin-top: -355px;
-  }
+#changedays{
+position: fixed;
+left: 620px;
+top: 50%;
+margin-top: -355px;
+}
 
 #changed{
-    width: 200px;
-	position: fixed;
-    top: 50%;
-    margin-top: -325px;
-    margin-left: 220px;
+width: 200px;
+position: fixed;
+top: 50%;
+margin-top: -325px;
+margin-left: 220px;
   }
   
-  #feel{
-	position: fixed;
-	top: 50%;
-  margin-top: -70px;
-    height: 0px;
-    width: 400px;
-    margin-left: 210px;
-    
-  }
+#feel{
+position: fixed;
+top: 50%;
+margin-top: -70px;
+height: 0px;
+width: 400px;
+margin-left: 210px;
+}
 
 
 /*Calendário*/
@@ -544,9 +548,9 @@ font-size: 62.5%;
 }
 
 .container {
-  scale: 0.85;
-  position: fixed;
-  top: 50%;
+scale: 0.85;
+position: fixed;
+top: 50%;
 margin-top: -240px;
 color: black;
 /*display: flex;*/
@@ -578,9 +582,8 @@ align-items: center;
 }
 
 .weekdays div {
-  font-variation-settings: 'wght' 300, 'wdth' 100;
-
-  color: rgb(75, 80, 73);
+font-variation-settings: 'wght' 300, 'wdth' 100;
+color: rgb(75, 80, 73);
 font-size: 1.5rem;
 font-weight: 400;
 letter-spacing: 0.1rem;
@@ -621,62 +624,66 @@ cursor: pointer;
 opacity: 0.5;
 }
 
+
 /*Profile*/
 #bdg{
-  display: inline-grid;
-  grid-template-columns: auto auto auto;
+display: inline-grid;
+grid-template-columns: auto auto auto;
 }
 
 #savep, #gob{
-  position: absolute;
+position: absolute;
 }
 
 #savep{
-  margin-left: 100px;
+margin-left: 100px;
 }
 
 #gob{
-  margin-left: 180px;
+margin-left: 180px;
 }
 
 #logout{
-	background-color: rgb(75, 80, 73);
+background-color: rgb(75, 80, 73);
 color: white;
 }
 
-/*Ao chegar a uma certa altura deixa de mexer com a janela*/
+
+
+/*Ao chegar a uma certa altura os elementos deixam de mexer com a janela*/
 @media screen and (min-width: 1080px) {
 @media screen and (max-height: 750px){
 	
-	.container {
-		top: 0;
-	  margin-top: 140px;
-	  }
+/*top 0 para fazer com que deixe de se mexer*/
+.container {
+top: 0;
+margin-top: 140px;
+}
 
 #mood{
-	top: 0;
-	margin-top: 620px;
-	}
+top: 0;
+margin-top: 620px;
+}
 
-	#feel{
-		top: 0;
-	  margin-top: 310px;
-	  }
+#feel{
+top: 0;
+margin-top: 310px;
+}
 
-  #changedays{
-	top: 0;
-  margin-top: 25px;
-  }
+#changedays{
+top: 0;
+margin-top: 25px;
+}
 
-  #changed{
-	top: 0;
-  margin-top: 55px;
-  }
+#changed{
+top: 0;
+margin-top: 55px;
+}
 
 #gráficos{
-	top: 0;
-  margin-top: 195px;
-  }
+top: 0;
+margin-top: 195px;
+}
 
 }
 }
@@ -684,64 +691,63 @@ color: white;
 /*Tablet*/
 @media screen and (max-width: 1080px) {
 
-
-  /*Definições Gerais*/
+/*Definições Gerais*/
 	.logo img{
-		width: 120px;
-		height: 120px;
+	width: 120px;
+	height: 120px;
     margin-top: -50px;
     margin-right: -50px;
 	}
 
 	#main{
-		margin-left: 150px;
+	margin-left: 150px;
 	}
 
-
-  #id {
+    #id {
     margin-left: 150px;
     }
 
     #let {
-          margin-left: 150px;
-          }
+    margin-left: 150px;
+    }
 
-  /*Index*/
+
+/*Index*/
 .login_field {
-  width: 250px;
+width: 250px;
 }
 
-  #about, #logs, #signs{
-    width: 50%;
-    left: 25%;
-    margin-left: 0px;
-  }
+#about, #logs, #signs{
+width: 50%;
+left: 25%;
+margin-left: 0px;
+}
 
-  #intro{
-      width: 60%;
-      left: 13%;
-    margin-left: 0px;
-  }
+#intro{
+width: 60%;
+left: 13%;
+margin-left: 0px;
+}
+
 
   /*Home*/
-  
 	#options{
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		width: 70%;
-		max-width: 600px;
-		margin-left: 150px;
-		margin-top: 50px;
-		margin-bottom: 50px;
-		justify-content: left;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 70%;
+	max-width: 600px;
+	margin-left: 150px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	justify-content: left;
 	}
 	.prompts, .moods, .habits, .challenges{
-		position: relative;
-		width: 40%;
-		max-width: 260px;
-		height: 200px;
-		margin: 0 20px 20px 0;
+	position: relative;
+	width: 40%;
+	max-width: 260px;
+	height: 200px;
+	margin: 0 20px 20px 0;
 	}
 
   .prompts, .moods{
@@ -749,214 +755,214 @@ color: white;
 	}
 	
 	#sidebar{
-		width: 30%;
-		max-width: 200px;
+	width: 30%;
+	max-width: 200px;
 	}
   
 	#abouttext{
-		max-width: 400px;
+	max-width: 400px;
 	}
 
 
 /*About Us*/
 #sob{
-  width: 80%;
+width: 80%;
 }
 
 
-	/*Habit e Mood*/
-  #gráficos{
+/*Habit e Mood*/
+#gráficos{
 top: 0;
-    margin-left: -120px;
-    margin-top: 200px;
-    font-size: 25px;
-    }
+margin-left: -120px;
+margin-top: 200px;
+font-size: 25px;
+}
     
-    #slp,#xx,#wk,#et{
-      padding: 14px;
-      margin: 10px;
-      }
+#slp,#xx,#wk,#et{
+padding: 14px;
+margin: 10px;
+}
 
- #changeday{
-	 top: 0;
-  margin-left: 0px;
-  margin-top: 200px;
+#changeday{
+top: 0;
+margin-left: 0px;
+margin-top: 200px;
 }
 
 #feel{
-	top: 0;
-  margin-left: -235px;
-  margin-top: 320px;
+top: 0;
+margin-left: -235px;
+margin-top: 320px;
 }
 
 #mood{
-	top: 0;
+top: 0;
 margin-top: 595px;
 margin-left: -612px;
 }
 
 #changedays{
-	top: 0;
-	margin-top: 80px;
-  transform: scale(0.9);
+top: 0;
+margin-top: 80px;
+transform: scale(0.9);
 margin-left: -25px;
 }
 
 #changed{
-	top: 0;
-  width: 500px;
-  transform: scale(0.9);
+top: 0;
+width: 500px;
+transform: scale(0.9);
 margin-left: -250px;
 margin-top: 350px;
 display: inline-grid;
-  grid-template-columns: auto auto auto auto;
+grid-template-columns: auto auto auto auto;
 }
-
 
 #changedays p{
 margin: 0;
 }
 
-
 #sbmt{
-  margin-top: -260px;
-  margin-left: 400px;
+margin-top: -260px;
+margin-left: 400px;
 }
 
 #am, #gr, #ok, #ng{
-  width: 200px;
-  height: 90px;
-  margin-top: 290px;
-  margin-left: -745px;
+width: 200px;
+height: 90px;
+margin-top: 290px;
+margin-left: -745px;
 }
 
 
 /*Calendário*/
-
 .month {
-  transform: scale(0.8);
-  margin-left: 5px;
+transform: scale(0.8);
+margin-left: 5px;
 }
 
-  .container{
-    scale: 0.7;
-	top: 0;
-    margin-left: -60px;
-    margin-top: 100px;
-  }
-
-  /*About us*/
-  #sob{
-    width: 100%;
-  }
-
-  #jor{
-    margin-top: 20px;
-  }
-
-
-  /*Journal*/
-  #popup{
-    margin-top: -50px;
-  }
-
-  #newentry{
-    top: 670px;
-     left: 67%;
-  }
-
-  .journalentry{
-    width: 400px;
-  }
-
-  #journalentries{
-    width: 420px;
-    height: 400px;
-    margin-left: -150px;
-  }
+.container{
+scale: 0.7;
+top: 0;
+margin-left: -60px;
+margin-top: 100px;
 }
 
+
+/*About us*/
+#sob{
+width: 100%;
+}
+
+#jor{
+margin-top: 20px;
+}
+
+
+/*Journal*/
+#popup{
+margin-top: -50px;
+}
+
+#newentry{
+top: 670px;
+left: 67%;
+}
+
+.journalentry{
+width: 400px;
+}
+
+#journalentries{
+width: 420px;
+height: 400px;
+margin-left: -150px;
+}
+
+}
 
 
 
 /*Telemóvel*/
 @media screen and (max-width: 600px){
 
-  /*Definições gerais*/
- body{
-   overflow: hidden;
- }
+/*Definições gerais*/
+body{
+overflow: hidden;
+}
 
 #main{
-	width: 90%;
-	margin-left: 10%;
+width: 90%;
+margin-left: 10%;
 }
 
 .logo img{
-	width: 60px;
-	height: 60px;
+width: 60px;
+height: 60px;
 top: 70px;
 right: 70px;
 }
 
 .prompts, .moods{
-  margin-top: 130px;
+margin-top: 130px;
 }
 
 #id {
-  margin-left: 50px;
-  }
+margin-left: 50px;
+}
 
-  #let {
-        margin-left: 50px;
-        }
+#let {
+margin-left: 50px;
+}
 
- /*Menu*/
+
+/*Menu*/
+/*menu telemóvel*/
 .icons{
-		width: 35px;
-		height: 35px;
-    margin-bottom: -35px;
-	} 
+width: 35px;
+height: 35px;
+margin-bottom: -35px;
+} 
 
 #mobilenav{
-	width: 100%;
-	height: 110px;
-	left: -15px;
-	bottom: 0;
-	display: block;
-  position: fixed;
-  z-index: -1;
+width: 100%;
+height: 110px;
+left: -15px;
+bottom: 0;
+display: block;
+position: fixed;
+z-index: -1;
 }
 
 #mobilenav ul{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
-	height: 100px;
-	padding: 0;
-	margin: 0;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+height: 100px;
+padding: 0;
+margin: 0;
 }
 
 #mobilenav li{
-	padding: 0;
+padding: 0;
 }
 
 #mobilenav a{
-	padding: 0;
+padding: 0;
 }
 
 aside{
-	display: none;
+display: none;
 }
 
 #bar_home{
-	width: 100%;
-	height: 10px;
-  margin-left: 20px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+width: 100%;
+height: 10px;
+margin-left: 20px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
 }
 
 #color, .blank{
@@ -965,13 +971,13 @@ height: 10px;
 }
 
 #color{
-	background-color: #9a9c7d;
+background-color: #9a9c7d;
 }
 
 
 /*Habits e Mood*/
 .prompts, .habits{
-	margin-left: 25px;
+margin-left: 25px;
 }
 
 .prompts, .moods, .habits, .challenges{
@@ -980,117 +986,118 @@ top: 70px;
 }
 
 #options{
-	margin: 0;
-	width: 100%;
-	justify-content: center;
+margin: 0;
+width: 100%;
+justify-content: center;
 }
 
 #options p{
-	font-size: 14px;
-	padding: 85px 0;
+font-size: 14px;
+padding: 85px 0;
 }
 
 #feel{
-  scale: 0.9;
-  position: absolute;
-  margin-top: 240px;
-  margin-left: -430px;
-  left: 50%;
-  }
+scale: 0.9;
+position: absolute;
+margin-top: 240px;
+margin-left: -430px;
+left: 50%;
+}
 
 #mood{
-	top: 0;
-	margin-top: 660px;
-	margin-left: -153px;
-	left: 50%;
-  }
-
-.container {
-position: absolute;
-margin-top: 0px;
-margin-left: -250px;
+top: 0;
+margin-top: 660px;
+margin-left: -153px;
 left: 50%;
 }
 
 #gráficos{
-  font-size: 20px;
-  grid-template-columns: auto auto auto auto;
-  position: absolute;
+font-size: 20px;
+grid-template-columns: auto auto auto auto;
+position: absolute;
 margin-top: 490px;
 margin-left: -660px;
 left: 50%;
-  }
+}
   
-  #slp,#xx,#wk,#et{
-    padding: 15px;
-    margin: 7px;
-    }
+#slp,#xx,#wk,#et{
+padding: 15px;
+margin: 7px;
+}
 
-    #changedays{
-    transform: scale(0.9);
-	margin-top: 70px;
-	margin-left: 280px;
+#changedays{
+transform: scale(0.9);
+margin-top: 70px;
+margin-left: 280px;
+left: 50%;
+}
+    
+#changed{
+transform: scale(0.8);
+position: absolute;
+margin-top: 250px;
+margin-left: -480px;
+left: 50%;
+}
+    
+#sbmt{
+margin-top: -180px;
+margin-left: 0px;
+}
+    
+#changeday{
+margin-top: 560px;
+margin-left: 15px;
+top: 82px;
+left: -5px;
+}
+
+#am, #gr, #ok, #ng{
+width: 250px;
+}
+
+/*Calendar*/
+.container {
+	position: absolute;
+	margin-top: 0px;
+	margin-left: -250px;
 	left: 50%;
-    }
-    
-    #changed{
-      transform: scale(0.8);
-	  position: absolute;
-	  margin-top: 250px;
-	  margin-left: -480px;
-	  left: 50%;
-    }
-    
-    #sbmt{
-    margin-top: -180px;
-    margin-left: 0px;
-    }
-    
-       #changeday{
-        margin-top: 560px;
-        margin-left: 15px;
-         top: 82px;
-         left: -5px;
-       }
+	}
 
-       #am, #gr, #ok, #ng{
-        width: 250px;
-       }
 
 /*Index*/
 .login_field {
-  width: 250px;
+width: 250px;
 }
 
-  #about, #logs, #signs{
-    width: 50%;
-    left: 20%;
-    margin-left: 0px;
-  }
+#about, #logs, #signs{
+width: 50%;
+left: 20%;
+margin-left: 0px;
+}
 
 #logs{
-	margin-top: -200px;
-  }
+margin-top: -200px;
+}
 
-  #signs{
-	margin-top: -240px;
-  }
+#signs{
+margin-top: -240px;
+}
 
-  #about{
-	margin-top: -265px;
-  }
+#about{
+margin-top: -265px;
+}
 
-  #intro{
-	  height: 500px;
-      width: 60%;
-      left: 10%;
-    margin-left: 0px;
-	margin-top: -290px;
-  }
+#intro{
+height: 500px;
+width: 60%;
+left: 10%;
+margin-left: 0px;
+margin-top: -290px;
+}
 
 
-
-/*Aboutus*/
+/*About Us*/
 #sob{
 scale: 0.9;
 margin-top: -40px;
@@ -1098,33 +1105,34 @@ margin-left: -20px;
 }
 
 #jor{
-  margin-top: 10px; 
+margin-top: 10px; 
 }
 
 
-  /*Journal*/
-  #popup{
-    margin-top: -50px;
-  }
+/*Journal*/
+#popup{
+margin-top: -50px;
+}
 
-  #newentry{
-    height: 50px;
-    top: 667px;
-     left: 60%;
-  }
+#newentry{
+height: 50px;
+top: 667px;
+left: 60%;
+}
 
-  .journalentry{
-    width: 70%;
-  }
+.journalentry{
+width: 70%;
+}
 
-  #journalentries{
-    width: 70%;
-    margin-left: -250px;
-  }
+#journalentries{
+width: 70%;
+margin-left: -250px;
+}
 
 .writingprompt1{
 width: 90%;
 }
+
 
 /*Perfil*/
 #aboutme{
@@ -1132,335 +1140,329 @@ width: 90%;
 }
 
 
-/*Diminuir altura*/
+
+/*Ao diminuir altura*/
 @media screen and (max-height: 800px){
 
-  /*Definições gerais*/
-	#main{
-  top: -65px;
-  }
+/*Definições gerais*/
+#main{
+top: -65px;
+}
 
-
-  #options p{
-    font-size: 14px;
-    padding: 75px 0;
-  }
+#options p{
+font-size: 14px;
+padding: 75px 0;
+}
 
 .prompts, .moods{
-  margin-top: 40px;
+margin-top: 40px;
 }
 
 #id {
-  position: absolute;
-  top: 115px;
-  }
+position: absolute;
+top: 115px;
+}
 
 
-  /*Habit e Mood*/
-  .container{
-    transform: scale(0.95);
-    margin-top: -20px;
-  }
-
-  .weekdays{
-    margin-top: -20px;
-  }
-
-  .prompts, .moods, .habits, .challenges{
-		height: 180px;
-    top: 165px;
-	}
-
-  #entry{
-    height: 200px;
-  }
-
-  #dc{
-    margin-top: 10px;
-  }
-
-  #id{
-    margin-top: -15px;
-  }
-
-     #changeday{
-       margin-top: 510px;
-       margin-left: 15px;
-     }
-
-  #mood{
-    margin-top: 525px;
-	margin-left: -145px;
-    }
-
-    #gráficos{
-      margin-top: 450px;
-   }
-
-   #feel{
-    margin-top: 185px;
-	margin-left: -425px;
-    }
+/*Calendar*/
+.container{
+transform: scale(0.95);
+margin-top: -20px;
+}
 
 
-  #changedays{
-    scale: 0.9;
-	margin-left: 230px;
-	margin-top: -20px;
-  }
+/*Habit e Mood*/
+.weekdays{
+margin-top: -20px;
+}
+
+.prompts, .moods, .habits, .challenges{
+height: 180px;
+top: 165px;
+}
+
+#entry{
+height: 200px;
+}
+
+#dc{
+margin-top: 10px;
+}
+
+#id{
+margin-top: -15px;
+}
+
+#changeday{
+margin-top: 510px;
+margin-left: 15px;
+}
+
+#mood{
+margin-top: 525px;
+margin-left: -145px;
+}
+
+#gráficos{
+margin-top: 450px;
+}
+
+#feel{
+margin-top: 185px;
+margin-left: -425px;
+}
+
+#changedays{
+scale: 0.9;
+margin-left: 230px;
+margin-top: -20px;
+}
   
-  #sbmt{
-    margin-top: -190px;
-  }
-
+#sbmt{
+margin-top: -190px;
+}
 
 #changed{
-  top:-50px;
-  }
+top:-50px;
+}
   
+#am, #gr, #ok, #ng{
+height: 70px;
+}
 
-  #am, #gr, #ok, #ng{
-    height: 70px;
-  }
 
-
-  /*Profile*/
+/*Profile*/
 #perfil, #logout, #change{
-  transform: scale(0.8);
-  margin-left: -20px;
+transform: scale(0.8);
+margin-left: -20px;
 }
 
 #inf{
-  margin-top: -20px;
+margin-top: -20px;
 }
 
 #logout, #change{
-  position: absolute;
-  margin-top: -50px;
+position: absolute;
+margin-top: -50px;
 }
 
 #logout{
-  margin-left: -6px;
+margin-left: -6px;
 }
 
 #change{
-  margin-left: 76px;
+margin-left: 76px;
 }
 
 #savep, #gob{
-  position: absolute;
-  transform: scale(0.8);
-  margin-top: -50px;
+position: absolute;
+transform: scale(0.8);
+margin-top: -50px;
 }
 
 #savep{
-  margin-left: 90px;
+margin-left: 90px;
 }
 
 #gob{
  margin-left: 170px;
 }
 
+
 /*Aboutus*/
 #sob{
-  scale: 0.8;
-  margin-top: -60px;
-  margin-left: -45px;
-  }
+scale: 0.8;
+margin-top: -60px;
+margin-left: -45px;
+}
   
-  #jor{
-    scale: 0.9;
-    margin-left: -10px; 
-    margin-top: -10px; 
-  }
+#jor{
+scale: 0.9;
+margin-left: -10px; 
+margin-top: -10px; 
+}
 
 
   /*Journal*/
-
-
-  #newentry{
-    top: 503px;
-  }
-
-  .journalentry{
-    width: 70%;
-  }
-
-  #journalentries{
-    width: 70%;
-    height: 300px;
-    margin-top: -60px;
-  }
-
-
-  #isd{
-	margin-top: -20px;
+#newentry{
+top: 503px;
 }
+
+.journalentry{
+width: 70%;
+}
+
+#journalentries{
+width: 70%;
+height: 300px;
+margin-top: -60px;
 }
 
 
-/*Diminuir mais o ecrâ*/
+#isd{
+margin-top: -20px;
+}
+
+}
+
+
+/*Ao diminuir mais a altura do ecrã*/
 @media screen and (max-height: 670px){
 
-
+/*Home*/
 #options p{
-	padding: 50px 0;
+padding: 50px 0;
 }
+
 
 /*Habit e Mood*/
-  .prompts, .moods, .habits, .challenges{
-		height: 120px;
-	}
-
-  #gráficos{
-	  scale: 0.8;
-   margin-top: 380px;
-   margin-left: -620px;
+.prompts, .moods, .habits, .challenges{
+height: 120px;
 }
 
-  #entry{
-    height: 100px;
-  }
+#gráficos{
+scale: 0.8;
+margin-top: 380px;
+margin-left: -620px;
+}
 
-  #dc{
-    margin-top: -10px;
-  }
+#entry{
+height: 100px;
+}
 
-  #id{
-    margin-top: -20px;
-  }
+#dc{
+margin-top: -10px;
+}
 
-  .container{
-    transform: scale(0.8);
-    margin-top: -40px;
-  }
+#id{
+ margin-top: -20px;
+}
 
-  .weekdays{
-    margin-top: -30px;
-  }
+.container{
+transform: scale(0.8);
+margin-top: -40px;
+}
+
+.weekdays{
+margin-top: -30px;
+}
 
 
 #changedays{
-  scale: 0.8;
-  margin-top: 120px;
+scale: 0.8;
+margin-top: 120px;
 margin-left: 195px;
 }
 
 #sbmt{
-  margin-top: -190px;
+margin-top: -190px;
 }
 
-  #feel{
-    transform: scale(0.9);
-    margin-top: 140px;
-	margin-left: -420px;
-    }
+#feel{
+transform: scale(0.9);
+margin-top: 140px;
+margin-left: -420px;
+}
 
-   #changeday{
-     margin-top: 500px;
-    margin-left: 15px;
-  }
+#changeday{
+margin-top: 500px;
+margin-left: 15px;
+}
 
 #mood{
-	scale: 0.8;
-  margin-top: 460px;
-
-  }
-
-  #am, #gr, #ok, #ng{
-    margin-top: 80px;
-    height: 50px;
-  }
-
-
-#changed{
-  scale: 0.9;
-  top:-100px;
-  }
-
-  #sbmt{
-    top:640px;
-    margin-left: 350px;
-  }
-
-
-   /*Profile*/
-
-#perfil, #logout, #change{
-  transform: scale(0.6);
-  margin-left: -40px;
+scale: 0.8;
+margin-top: 460px;
 }
 
+#am, #gr, #ok, #ng{
+margin-top: 80px;
+height: 50px;
+}
+
+#changed{
+scale: 0.9;
+top:-100px;
+}
+
+#sbmt{
+top:640px;
+margin-left: 350px;
+}
+
+
+/*Profile*/
 #inf{
-  margin-top: -35px;
+margin-top: -35px;
 }
 
 #logout, #change{
-  margin-top: -70px;
+margin-top: -60px;
 }
 
 #savep, #gob{
-  transform: scale(0.6);
-  margin-top: -70px;
-}
-
-#logout{
-  margin-left: -16px;
+transform: scale(0.6);
+margin-top: -70px;
 }
 
 #change{
-  margin-left: 56px;
+margin-left: 76px;
 }
 
-#aboutme{
-  transform: scale(0.8);
-  margin-left: -50px;
-  margin-top: -10px;
+#bdg{
+scale: 0.8;
+margin-left: -20px;
 }
 
-/*Aboutus*/
+#perfil{
+	position: absolute;
+	margin-top: -30px;
+}
+
+/*About Us*/
 #sob{
-  width: 400px;
-  scale: 0.7;
-  margin-top: -90px;
-  margin-left: -50px;
-  }
+width: 400px;
+scale: 0.7;
+margin-top: -90px;
+margin-left: -50px;
+}
   
-  #jor{
-    scale: 0.8;
-    position: absolute;
-    margin-top: -60px; 
-    margin-left: -20px;
-  }
+#jor{
+scale: 0.8;
+position: absolute;
+margin-top: -60px; 
+margin-left: -20px;
+}
 
-    /*Journal*/
-    #popup{
-      margin-top: -50px;
-    }
+/*Journal*/
+#popup{
+margin-top: -50px;
+}
   
-    #newentry{
-      height: 50px;
-      top: 402px;
-       left: 60%;
-    }
+#newentry{
+height: 50px;
+top: 402px;
+left: 60%;
+}
   
-    .journalentry{
-      width: 70%;
-    }
+.journalentry{
+width: 70%;
+}
   
-    #journalentries{
-      height: 200px;
-      width: 70%;
-      margin-left: -255px;
-    }
+#journalentries{
+height: 200px;
+Width: 70%;
+margin-left: -255px;
+}
   
-  .writingprompt1{
-  width: 90%;
-  }
+.writingprompt1{
+width: 90%;
+}
 
-  #isd{
-	  margin-top: -60px;
-  }
+#isd{
+margin-top: -60px;
+}
   
 }
+
 }
+
