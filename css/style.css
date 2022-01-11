@@ -521,8 +521,10 @@ grid-template-columns: auto auto;
 
 #changed{
     width: 200px;
-    top: 15px;
-    left: 250px;
+	position: fixed;
+    top: 50%;
+    margin-top: -325px;
+    margin-left: 220px;
   }
   
   #feel{
@@ -655,16 +657,19 @@ color: white;
 	margin-top: 620px;
 	}
 
-
 	#feel{
 		top: 0;
 	  margin-top: 310px;
 	  }
 
-
   #changedays{
 	top: 0;
   margin-top: 25px;
+  }
+
+  #changed{
+	top: 0;
+  margin-top: 55px;
   }
 
 #gráficos{
@@ -797,8 +802,8 @@ margin-left: -25px;
 #changed{
   width: 500px;
   transform: scale(0.9);
-margin-left: -530px;
-margin-top: 280px;
+margin-left: -250px;
+margin-top: -50px;
 display: inline-grid;
   grid-template-columns: auto auto auto auto;
 }
@@ -1189,7 +1194,7 @@ width: 90%;
    }
 
    #feel{
-    margin-top: 135px;
+    margin-top: 185px;
 	margin-left: -425px;
     }
 
@@ -1206,7 +1211,7 @@ width: 90%;
 
 
 #changed{
-  top:-30px;
+  top:-20px;
   }
   
 
@@ -1366,7 +1371,7 @@ margin-left: 195px;
 
 #changed{
   scale: 0.9;
-  top:-90px;
+  top:-70px;
   }
 
   #sbmt{
