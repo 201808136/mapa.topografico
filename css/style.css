@@ -648,16 +648,13 @@ background-color: rgb(75, 80, 73);
 color: white;
 }
 
-@media screen and (max-height: 750px){
-  .logo img{
-    top: 40px;
-  }
-}
-
 /*Ao chegar a uma certa altura os elementos deixam de mexer com a janela*/
 @media screen and (min-width: 1080px) {
 @media screen and (max-height: 750px){
-	
+	.logo img{
+    top: 40px;
+  }
+
 /*top 0 para fazer com que deixe de se mexer*/
 #changeday{
 top: 0;
@@ -827,7 +824,6 @@ width: 500px;
 transform: scale(0.9);
 margin-left: 80px;
 margin-top: 15px;
-
 }
 
 #changedays p{
@@ -909,6 +905,7 @@ overflow: hidden;
 
 #main{
 width: 90%;
+margin-top: 100px;
 margin-left: 10%;
 }
 
@@ -1024,7 +1021,7 @@ left: 50%;
 #mood{
 top: 0;
 width: 200px;
-margin-top: 600px;
+margin-top: 620px;
 margin-left: -145px;
 left: 50%;
 }
@@ -1069,11 +1066,10 @@ margin-left: 0px;
 }
     
 #changeday{
-margin-top: 480px;
-margin-left: 45px;
+margin-top: 500px;
+margin-left: -145px;
 top: 82px;
 left: 50%;
-left: 35px;
 }
 
 #am, #gr, #ok, #ng{
@@ -1222,12 +1218,12 @@ margin-top: -15px;
 }
 
 #changeday{
-margin-top: 360px;
-margin-left: 45px;
+margin-top: 400px;
+margin-left: -145px;
 }
 
 #mood{
-margin-top: 480px;
+margin-top: 520px;
 margin-left: -145px;
 }
 
@@ -1392,13 +1388,13 @@ margin-left: -420px;
 }
 
 #changeday{
-margin-top: 335px;
-margin-left: 50px;
+margin-top: 375px;
+margin-left: -140px;
 }
 
 #mood{
 transform: scale(0.8);
-margin-top: 450px;
+margin-top: 490px;
 margin-left: -160px;
 }
 
