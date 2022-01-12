@@ -461,8 +461,8 @@ height: 20px;
 #changeday{
   position: fixed;
   top: 50%;
-  margin-top: 200px;
-margin-left: 470px;
+  margin-top: 210px;
+margin-left: 520px;
 display: grid;
 grid-template-columns: auto auto auto auto;
 }
@@ -787,8 +787,8 @@ margin: 10px;
 
 #changeday{
 top: 0;
-margin-left: 330px;
-margin-top: 490px;
+margin-left: 380px;
+margin-top: 460px;
 }
 
 #feel{
@@ -1064,7 +1064,7 @@ margin-left: 0px;
     
 #changeday{
 margin-top: 500px;
-margin-left: -145px;
+margin-left: -195px;
 top: 82px;
 left: 50%;
 }
@@ -1216,8 +1216,8 @@ margin-top: -15px;
 }
 
 #changeday{
-margin-top: 400px;
-margin-left: -145px;
+margin-top: 440px;
+margin-left: -185px;
 }
 
 #mood{
@@ -1345,7 +1345,7 @@ height: 120px;
 #gráficos{
 transform: scale(0.8);
 margin-top: 400px;
-margin-left: -610px;
+margin-left: -620px;
 }
 
 #entry{
@@ -1385,8 +1385,8 @@ margin-left: -420px;
 }
 
 #changeday{
-margin-top: 375px;
-margin-left: -140px;
+margin-top: 445px;
+margin-left: -180px;
 }
 
 #mood{
