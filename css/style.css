@@ -38,8 +38,8 @@ font-size:18px;
     
 .logo img {
 position: absolute;
-top: 90px;
-right: 100px;
+top: 50px;
+right: 50px;
 width: 170px;
 height: 170px;
 }
@@ -651,9 +651,6 @@ color: white;
 /*Ao chegar a uma certa altura os elementos deixam de mexer com a janela*/
 @media screen and (min-width: 1080px) {
 @media screen and (max-height: 750px){
-	.logo img{
-    top: 40px;
-  }
 
 /*top 0 para fazer com que deixe de se mexer*/
 #changeday{
@@ -701,12 +698,9 @@ margin-top: 195px;
 	.logo img{
 	width: 120px;
 	height: 120px;
-    margin-top: -70px;
-    margin-right: -70px;
 	}
 
 	#main{
-    margin-top: 60px;
 	margin-left: 130px;
 	}
 
@@ -782,7 +776,7 @@ width: 80%;
 #gráficos{
 top: 0;
 margin-left: -120px;
-margin-top: 200px;
+margin-top: 220px;
 font-size: 25px;
 }
     
@@ -794,36 +788,36 @@ margin: 10px;
 #changeday{
 top: 0;
 margin-left: 330px;
-margin-top: 430px;
+margin-top: 490px;
 }
 
 #feel{
 top: 0;
 width: 120px;
 margin-left: 85px;
-margin-top: 0px;
+margin-top: 60px;
 }
 
 #mood{
 top: 0;
 width: 120px;
-margin-top: 470px;
+margin-top: 530px;
 margin-left: -310px;
 }
 
 #changedays{
 top: 0;
-margin-top: 80px;
+margin-top: -10px;
 transform: scale(0.9);
-margin-left: -25px;
+margin-left: -280px;
 }
 
 #changed{
 top: 0;
-width: 500px;
-transform: scale(0.9);
-margin-left: 80px;
-margin-top: 15px;
+width: 150px;
+transform: scale(0.8);
+margin-left: 100px;
+margin-top: 25px;
 }
 
 #changedays p{
@@ -839,7 +833,9 @@ margin-left: 400px;
 width: 20px;
 }
 
-
+#am, #gr, #ok, #ng{
+  width: 120px;
+  }
 
 
 /*Calendário*/
@@ -852,7 +848,7 @@ margin-left: 5px;
 transform: scale(0.7);
 top: 0;
 margin-left: -60px;
-margin-top: 60px;
+margin-top: 120px;
 }
 
 
@@ -1042,8 +1038,8 @@ margin: 7px;
 
 #changedays{
 transform: scale(0.9);
-margin-top: 70px;
-margin-left: 280px;
+margin-top: 120px;
+margin-left: -280px;
 left: 50%;
 }
     
@@ -1051,7 +1047,8 @@ left: 50%;
 transform: scale(0.8);
 position: absolute;
 margin-top: 250px;
-margin-left: -480px;
+margin-left: -450px;
+width: 400px;
 left: 50%;
 display: inline-grid;
 grid-template-columns: auto auto auto auto;
@@ -1073,7 +1070,8 @@ left: 50%;
 }
 
 #am, #gr, #ok, #ng{
-width: 250px;
+width: 150px;
+height: 70px;
 }
 
 /*Calendar*/
@@ -1238,8 +1236,8 @@ margin-left: -425px;
 
 #changedays{
 transform: scale(0.9);
-margin-left: 295px;
-margin-top: -30px;
+margin-left: -270px;
+margin-top: 20px;
 }
   
 #sbmt{
@@ -1372,9 +1370,8 @@ margin-top: -30px;
 }
 
 #changedays{
-transform: scale(0.8);
-margin-top: 140px;
-margin-left: 230px;
+margin-top: -10px;
+margin-left: -270px;
 }
 
 #sbmt{
@@ -1396,11 +1393,6 @@ margin-left: -140px;
 transform: scale(0.8);
 margin-top: 490px;
 margin-left: -160px;
-}
-
-#am, #gr, #ok, #ng{
-margin-top: 80px;
-height: 50px;
 }
 
 #changed{
