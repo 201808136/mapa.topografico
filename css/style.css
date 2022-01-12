@@ -987,7 +987,7 @@ background-color: #9a9c7d;
 }
 
 
-/*Homw*/
+/*Home*/
 .prompts, .habits{
 margin-left: 25px;
 }
@@ -1072,9 +1072,9 @@ width: 250px;
 
 /*Calendar*/
 .container {
-	position: absolute;
-	margin-top: 0px;
-	margin-left: -250px;
+  top: 0;
+	margin-top: 100px;
+	margin-left: -230px;
 	left: 50%;
 	}
 
@@ -1180,16 +1180,16 @@ top: 115px;
 
 /*Calendar*/
 .container{
-transform: scale(0.95);
-margin-top: -20px;
+transform: scale(0.9);
+margin-top: 10px;
 }
 
-
-/*Habit e Mood*/
 .weekdays{
 margin-top: -20px;
 }
 
+
+/*Home*/
 .prompts, .moods, .habits, .challenges{
 height: 180px;
 top: 165px;
@@ -1203,6 +1203,8 @@ height: 200px;
 margin-top: 10px;
 }
 
+
+/*Habit e Mood*/
 #id{
 margin-top: -15px;
 }
@@ -1329,15 +1331,9 @@ padding: 50px 0;
 }
 
 
-/*Habit e Mood*/
+/*Home*/
 .prompts, .moods, .habits, .challenges{
 height: 120px;
-}
-
-#gráficos{
-scale: 0.8;
-margin-top: 380px;
-margin-left: -620px;
 }
 
 #entry{
@@ -1352,9 +1348,11 @@ margin-top: -10px;
  margin-top: -20px;
 }
 
+
+/*Calendar*/
 .container{
 transform: scale(0.8);
-margin-top: -40px;
+margin-top: -20px;
 }
 
 .weekdays{
@@ -1362,11 +1360,18 @@ margin-top: -30px;
 }
 
 
+/*Habit e Mood*/
 #changedays{
 scale: 0.8;
 margin-top: 120px;
 margin-left: 195px;
 }
+
+#gráficos{
+  scale: 0.8;
+  margin-top: 380px;
+  margin-left: -620px;
+  }
 
 #sbmt{
 margin-top: -190px;
@@ -1480,3 +1485,4 @@ margin-top: -60px;
 }
 
 }
+
