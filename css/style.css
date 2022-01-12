@@ -1012,9 +1012,8 @@ padding: 85px 0;
 /*Habits e Mood*/
 #feel{
 scale: 0.9;
-position: absolute;
-margin-top: 270px;
-margin-left: -430px;
+margin-top: 350px;
+margin-left: -410px;
 left: 50%;
 }
 
@@ -1028,9 +1027,8 @@ left: 50%;
 #gráficos{
 font-size: 20px;
 grid-template-columns: auto auto auto auto;
-position: absolute;
-margin-top: 490px;
-margin-left: -660px;
+margin-top: 590px;
+margin-left: -640px;
 left: 50%;
 }
   
@@ -1048,9 +1046,8 @@ left: 50%;
     
 #changed{
 transform: scale(0.8);
-position: absolute;
-margin-top: 250px;
-margin-left: -480px;
+margin-top: 340px;
+margin-left: -460px;
 left: 50%;
 }
     
@@ -1060,10 +1057,10 @@ margin-left: 0px;
 }
     
 #changeday{
-margin-top: 510px;
-margin-left: 75px;
+margin-top: 520px;
+margin-left: -150px;
 top: 82px;
-left: -5px;
+left: 50%;
 }
 
 #am, #gr, #ok, #ng{
@@ -1211,7 +1208,7 @@ margin-top: -15px;
 
 #changeday{
 margin-top: 400px;
-margin-left: 85px;
+margin-left: -145px;
 }
 
 #mood{
@@ -1220,12 +1217,12 @@ margin-left: -145px;
 }
 
 #gráficos{
-margin-top: 450px;
+margin-top: 470px;
 }
 
 #feel{
-margin-top: 185px;
-margin-left: -425px;
+margin-top: 200px;
+margin-left: -405px;
 }
 
 #changedays{
@@ -1239,7 +1236,7 @@ margin-top: -190px;
 }
 
 #changed{
-top:-50px;
+top:-120px;
 }
   
 #am, #gr, #ok, #ng{
@@ -1369,8 +1366,8 @@ margin-left: 195px;
 
 #gráficos{
   scale: 0.8;
-  margin-top: 380px;
-  margin-left: -620px;
+  margin-top: 400px;
+  margin-left: -590px;
   }
 
 #sbmt{
@@ -1379,14 +1376,14 @@ margin-top: -190px;
 
 #feel{
 transform: scale(0.9);
-margin-top: 140px;
-margin-left: -420px;
+margin-top: 160px;
+margin-left: -400px;
 }
 
 #changeday{
 scale: 0.8;
 margin-top: 345px;
-margin-left: 85px;
+margin-left: -145px;
 }
 
 #mood{
@@ -1401,7 +1398,7 @@ height: 50px;
 
 #changed{
 scale: 0.9;
-top:-100px;
+top:-170px;
 }
 
 #sbmt{
@@ -1485,3 +1482,4 @@ margin-top: -60px;
 }
 
 }
+
