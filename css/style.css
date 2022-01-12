@@ -908,8 +908,8 @@ margin-left: 10%;
 .logo img{
 width: 60px;
 height: 60px;
-top: 90px;
-right: 90px;
+top: 30px;
+right: 30px;
 }
 
 .prompts, .moods{
@@ -1431,7 +1431,12 @@ margin-left: -20px;
 
 #perfil{
 	position: absolute;
-	margin-top: -30px;
+	margin-top: -25px;
+}
+
+#aboutme{
+  transform: scale(0.8);
+  margin-left: -35px;
 }
 
 /*About Us*/
