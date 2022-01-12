@@ -987,7 +987,7 @@ background-color: #9a9c7d;
 }
 
 
-/*Habits e Mood*/
+/*Homw*/
 .prompts, .habits{
 margin-left: 25px;
 }
@@ -1008,10 +1008,12 @@ font-size: 14px;
 padding: 85px 0;
 }
 
+
+/*Habits e Mood*/
 #feel{
 scale: 0.9;
 position: absolute;
-margin-top: 240px;
+margin-top: 270px;
 margin-left: -430px;
 left: 50%;
 }
