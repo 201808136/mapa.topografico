@@ -460,9 +460,10 @@ height: 20px;
 
 
 #changeday{
-position: absolute;
-top: 480px;
-margin-left: 515px;
+position: fixed;
+left: 770px;
+top: 50%;
+margin-top: 185px;
 display: grid;
 grid-template-columns: auto auto auto auto;
 }
@@ -680,6 +681,11 @@ top: 0;
 margin-top: 55px;
 }
 
+#changeday{
+top: 0;
+margin-top: 565px;
+}
+
 #gráficos{
 top: 0;
 margin-top: 195px;
@@ -786,8 +792,8 @@ margin: 10px;
 
 #changeday{
 top: 0;
-margin-left: 0px;
-margin-top: 600px;
+margin-left: -612px;
+margin-top: 593px;
 }
 
 #feel{
@@ -798,7 +804,7 @@ margin-top: 320px;
 
 #mood{
 top: 0;
-margin-top: 630px;
+margin-top: 635px;
 margin-left: -612px;
 }
 
@@ -1012,7 +1018,7 @@ left: 50%;
 
 #mood{
 top: 0;
-margin-top: 660px;
+margin-top: 640px;
 margin-left: -153px;
 left: 50%;
 }
@@ -1052,8 +1058,8 @@ margin-left: 0px;
 }
     
 #changeday{
-margin-top: 560px;
-margin-left: 15px;
+margin-top: 510px;
+margin-left: 75px;
 top: 82px;
 left: -5px;
 }
@@ -1200,8 +1206,8 @@ margin-top: -15px;
 }
 
 #changeday{
-margin-top: 510px;
-margin-left: 15px;
+margin-top: 400px;
+margin-left: 85px;
 }
 
 #mood{
@@ -1371,8 +1377,9 @@ margin-left: -420px;
 }
 
 #changeday{
-margin-top: 500px;
-margin-left: 15px;
+scale: 0.8;
+margin-top: 345px;
+margin-left: 85px;
 }
 
 #mood{
@@ -1471,3 +1478,4 @@ margin-top: -60px;
 }
 
 }
+
